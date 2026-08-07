@@ -1,1 +1,57 @@
-.github/workflows/daily-devotional-factory.yml
+name: Devotional Content Factory V1.6
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Optional date (YYYY-MM-DD)"
+        required: false
+        default: ""
+      videos:
+        description: "Videos to generate (1 for test, 10 for production)"
+        required: true
+        default: "1"
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate Episodes
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python src/main.py \
+              --date "${{ github.event.inputs.date }}" \
+              --videos "${{ github.event.inputs.videos }}"
+          else
+            python src/main.py \
+              --videos "${{ github.event.inputs.videos }}"
+          fi
+
+      - name: Show Generated Files
+        run: find output -type f
+
+      - name: Upload Output
+        uses: actions/upload-artifact@v4
+        with:
+          name: devotional-v1-6-${{ github.run_number }}
+          path: output/**
+          if-no-files-found: error
+          retention-days: 7
