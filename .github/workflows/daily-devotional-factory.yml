@@ -1,0 +1,40 @@
+name: Devotional Content Factory
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Run date (YYYY-MM-DD)"
+        required: false
+        default: ""
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Generate Content
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python src/main.py --date "${{ github.event.inputs.date }}"
+          else
+            python src/main.py
+          fi
+
+      - name: Upload Output
+        uses: actions/upload-artifact@v4
+        with:
+          name: devotional-content
+          path: output/**
