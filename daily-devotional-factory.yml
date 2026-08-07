@@ -1,0 +1,39 @@
+name: Devotional Content Factory V1.4
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Optional date (YYYY-MM-DD)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate V1.4 Episode Packages
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python src/main.py --date "${{ github.event.inputs.date }}"
+          else
+            python src/main.py
+          fi
+
+      - name: Upload Output
+        uses: actions/upload-artifact@v4
+        with:
+          name: devotional-v1-4-${{ github.run_number }}
+          path: output/**
+          if-no-files-found: error
+          retention-days: 7

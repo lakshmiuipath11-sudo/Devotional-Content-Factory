@@ -9,12 +9,12 @@
   "story": "శనిగ్రహ ప్రభావం ఎప్పుడూ చెడేనా? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. శని కష్టాల ద్వారా క్రమశిక్షణ, సహనం, బాధ్యత నేర్పుతాడు.",
   "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
   "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
-  "scene_prompts": [
-    "Lord Shani, devotional opening scene, vertical 9:16",
-    "Lord Shani, story setup, sacred background, vertical 9:16",
-    "Lord Shani, main spiritual event, vertical 9:16",
-    "Lord Shani, blessing and teaching moment, vertical 9:16",
-    "Lord Shani, peaceful conclusion, subscribe message space, vertical 9:16"
+  "scene_seed_descriptions": [
+    "Lord Shani in a deep blue celestial setting, dignified and calm presence",
+    "Lord Shani observing the karmic situation described in the episode",
+    "Lord Shani delivering the central lesson or consequence from the story",
+    "Lord Shani blessing a humble devotee after learning and discipline",
+    "Peaceful Shani temple with lamps, balanced dark-blue sacred atmosphere"
   ],
   "tags": [
     "shani",

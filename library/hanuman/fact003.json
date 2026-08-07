@@ -9,12 +9,12 @@
   "story": "హనుమంతుడు సూర్యుడిని గురువుగా ఎందుకు స్వీకరించాడు? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. జ్ఞానాన్ని పొందేందుకు సూర్యదేవుని గురువుగా భావించాడు.",
   "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
   "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
-  "scene_prompts": [
-    "Lord Hanuman, devotional opening scene, vertical 9:16",
-    "Lord Hanuman, story setup, sacred background, vertical 9:16",
-    "Lord Hanuman, main spiritual event, vertical 9:16",
-    "Lord Hanuman, blessing and teaching moment, vertical 9:16",
-    "Lord Hanuman, peaceful conclusion, subscribe message space, vertical 9:16"
+  "scene_seed_descriptions": [
+    "Lord Hanuman standing powerfully at sunrise with gada, devotional heroic presence",
+    "Lord Hanuman beginning the sacred event described in the story",
+    "Lord Hanuman performing the central act of courage and devotion from the episode",
+    "Lord Hanuman receiving or giving a divine blessing, warm golden sacred light",
+    "Lord Hanuman in peaceful prayer to Lord Rama, strong devotional ending"
   ],
   "tags": [
     "hanuman",

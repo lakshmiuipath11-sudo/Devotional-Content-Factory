@@ -1,5 +1,7 @@
 {
   "videos_per_day": 10,
   "scenes_per_video": 5,
-  "language": "Telugu"
+  "language": "Telugu",
+  "prompt_style": "cinematic devotional",
+  "aspect_ratio": "9:16"
 }

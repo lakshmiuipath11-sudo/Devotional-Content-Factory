@@ -9,12 +9,12 @@
   "story": "సూర్యదేవుని ఏడు గుర్రాలు ఏమి సూచిస్తాయి? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. ఏడు గుర్రాలు వారంలోని ఏడు రోజులు లేదా కాంతి రంగులను సూచిస్తాయని భావిస్తారు.",
   "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
   "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
-  "scene_prompts": [
-    "Lord Surya, devotional opening scene, vertical 9:16",
-    "Lord Surya, story setup, sacred background, vertical 9:16",
-    "Lord Surya, main spiritual event, vertical 9:16",
-    "Lord Surya, blessing and teaching moment, vertical 9:16",
-    "Lord Surya, peaceful conclusion, subscribe message space, vertical 9:16"
+  "scene_seed_descriptions": [
+    "Lord Surya rising in a golden chariot with seven horses at dawn",
+    "Lord Surya illuminating the world, beginning the lesson described in the episode",
+    "Lord Surya at the central spiritual moment of the story, radiant divine energy",
+    "Lord Surya blessing devotees with warm golden sunlight",
+    "Sunrise over a sacred temple, peaceful devotional conclusion"
   ],
   "tags": [
     "surya",

@@ -9,12 +9,12 @@
   "story": "విష్ణువు దశావతారాల ఉద్దేశ్యం గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. ధర్మాన్ని రక్షించేందుకు విష్ణువు వివిధ అవతారాలు ధరించాడు.",
   "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
   "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
-  "scene_prompts": [
-    "Lord Vishnu, devotional opening scene, vertical 9:16",
-    "Lord Vishnu, story setup, sacred background, vertical 9:16",
-    "Lord Vishnu, main spiritual event, vertical 9:16",
-    "Lord Vishnu, blessing and teaching moment, vertical 9:16",
-    "Lord Vishnu, peaceful conclusion, subscribe message space, vertical 9:16"
+  "scene_seed_descriptions": [
+    "Lord Vishnu in Vaikuntha, conch and chakra, celestial golden-blue atmosphere",
+    "Lord Vishnu appearing at the beginning of the sacred event described in the episode",
+    "Lord Vishnu performing the central divine act or teaching from the story",
+    "Lord Vishnu blessing devotees, compassionate expression, celestial light",
+    "Peaceful Vaikuntha scene with lotus and sacred glow, devotional conclusion"
   ],
   "tags": [
     "vishnu",

@@ -1,0 +1,11 @@
+{
+  "common_style": "cinematic Indian devotional artwork, respectful sacred depiction, high detail, realistic textures, dramatic volumetric lighting, rich spiritual atmosphere, vertical 9:16 composition, no text, no watermark",
+  "negative_prompt": "blurry, distorted face, extra limbs, malformed hands, duplicate body, cropped deity, low detail, text, watermark, logo, modern clothing",
+  "scene_roles": [
+    "HOOK",
+    "SETUP",
+    "MAIN_EVENT",
+    "DIVINE_TEACHING",
+    "ENDING_CTA"
+  ]
+}

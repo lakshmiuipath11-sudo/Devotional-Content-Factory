@@ -9,12 +9,12 @@
   "story": "గణేశుడు ప్రపంచ యాత్రలో ఎలా గెలిచాడు? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. తల్లిదండ్రులే తన ప్రపంచమని భావించి వారిని ప్రదక్షిణ చేశాడు.",
   "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
   "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
-  "scene_prompts": [
-    "Lord Ganesha, devotional opening scene, vertical 9:16",
-    "Lord Ganesha, story setup, sacred background, vertical 9:16",
-    "Lord Ganesha, main spiritual event, vertical 9:16",
-    "Lord Ganesha, blessing and teaching moment, vertical 9:16",
-    "Lord Ganesha, peaceful conclusion, subscribe message space, vertical 9:16"
+  "scene_seed_descriptions": [
+    "Lord Ganesha seated in Kailasa before Shiva and Parvati, warm divine light",
+    "Lord Ganesha calmly observing the challenge or lesson from the episode",
+    "Lord Ganesha performing the central action described in the story",
+    "Lord Ganesha receiving blessings, gods smiling, radiant golden aura",
+    "Lord Ganesha seated on a lotus surrounded by lamps, peaceful devotional conclusion"
   ],
   "tags": [
     "ganesha",

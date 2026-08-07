@@ -9,12 +9,12 @@
   "story": "గంగను జటల్లో ధరించిన శివుడు గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. గంగ ప్రవాహాన్ని నియంత్రించడానికి శివుడు తన జటల్లో ధరించాడు.",
   "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
   "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
-  "scene_prompts": [
-    "Lord Shiva, devotional opening scene, vertical 9:16",
-    "Lord Shiva, story setup, sacred background, vertical 9:16",
-    "Lord Shiva, main spiritual event, vertical 9:16",
-    "Lord Shiva, blessing and teaching moment, vertical 9:16",
-    "Lord Shiva, peaceful conclusion, subscribe message space, vertical 9:16"
+  "scene_seed_descriptions": [
+    "Lord Shiva in meditation on Mount Kailash, crescent moon, Ganga flowing from matted hair",
+    "Lord Shiva with Parvati in a sacred Himalayan setting, calm divine presence",
+    "Lord Shiva revealing the spiritual meaning of the episode, powerful sacred symbolism",
+    "Lord Shiva blessing devotees, radiant blue-white aura and trident nearby",
+    "Peaceful Shiva temple with lamps and sacred atmosphere, strong devotional closing image"
   ],
   "tags": [
     "shiva",
