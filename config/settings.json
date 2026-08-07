@@ -2,6 +2,8 @@
   "videos_per_day": 10,
   "scenes_per_video": 5,
   "language": "Telugu",
-  "prompt_style": "cinematic devotional",
-  "aspect_ratio": "9:16"
+  "image_engine": "huggingface",
+  "hf_model": "black-forest-labs/FLUX.1-schnell",
+  "max_image_retries": 3,
+  "retry_delay_seconds": 8
 }
