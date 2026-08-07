@@ -1,0 +1,25 @@
+{
+  "id": "VISHNU-002",
+  "deity_key": "vishnu",
+  "deity_name": "Lord Vishnu",
+  "language": "Telugu",
+  "title": "శేషశయ్యపై విష్ణువు ఎందుకు విశ్రాంతి తీసుకుంటాడు?",
+  "hook": "మీకు తెలుసా?",
+  "fact": "సృష్టి మధ్యలో శాంతి మరియు సమతుల్యతకు ఇది ప్రతీక.",
+  "story": "శేషశయ్యపై విష్ణువు ఎందుకు విశ్రాంతి తీసుకుంటాడు? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. సృష్టి మధ్యలో శాంతి మరియు సమతుల్యతకు ఇది ప్రతీక.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Lord Vishnu, devotional opening scene, vertical 9:16",
+    "Lord Vishnu, story setup, sacred background, vertical 9:16",
+    "Lord Vishnu, main spiritual event, vertical 9:16",
+    "Lord Vishnu, blessing and teaching moment, vertical 9:16",
+    "Lord Vishnu, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "vishnu",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}

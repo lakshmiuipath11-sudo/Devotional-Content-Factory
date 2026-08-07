@@ -1,0 +1,25 @@
+{
+  "id": "SHIVA-002",
+  "deity_key": "shiva",
+  "deity_name": "Lord Shiva",
+  "language": "Telugu",
+  "title": "నీలకంఠుడిగా శివుడు ఎందుకు ప్రసిద్ధి?",
+  "hook": "మీకు తెలుసా?",
+  "fact": "సముద్ర మథనంలో ఉద్భవించిన హాలాహల విషాన్ని శివుడు సేవించాడు.",
+  "story": "నీలకంఠుడిగా శివుడు ఎందుకు ప్రసిద్ధి? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. సముద్ర మథనంలో ఉద్భవించిన హాలాహల విషాన్ని శివుడు సేవించాడు.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Lord Shiva, devotional opening scene, vertical 9:16",
+    "Lord Shiva, story setup, sacred background, vertical 9:16",
+    "Lord Shiva, main spiritual event, vertical 9:16",
+    "Lord Shiva, blessing and teaching moment, vertical 9:16",
+    "Lord Shiva, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "shiva",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}

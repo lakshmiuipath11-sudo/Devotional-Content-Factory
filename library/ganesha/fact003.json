@@ -1,0 +1,25 @@
+{
+  "id": "GANESHA-003",
+  "deity_key": "ganesha",
+  "deity_name": "Lord Ganesha",
+  "language": "Telugu",
+  "title": "మూషిక వాహనం అర్థం ఏమిటి?",
+  "hook": "మీకు తెలుసా?",
+  "fact": "మనసులోని చంచలత్వాన్ని నియంత్రించే జ్ఞానానికి అది ప్రతీక.",
+  "story": "మూషిక వాహనం అర్థం ఏమిటి? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. మనసులోని చంచలత్వాన్ని నియంత్రించే జ్ఞానానికి అది ప్రతీక.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Lord Ganesha, devotional opening scene, vertical 9:16",
+    "Lord Ganesha, story setup, sacred background, vertical 9:16",
+    "Lord Ganesha, main spiritual event, vertical 9:16",
+    "Lord Ganesha, blessing and teaching moment, vertical 9:16",
+    "Lord Ganesha, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "ganesha",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}

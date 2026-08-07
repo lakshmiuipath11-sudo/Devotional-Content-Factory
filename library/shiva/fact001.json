@@ -1,0 +1,25 @@
+{
+  "id": "SHIVA-001",
+  "deity_key": "shiva",
+  "deity_name": "Lord Shiva",
+  "language": "Telugu",
+  "title": "శివుడి మూడో కన్ను ఎందుకు?",
+  "hook": "మీకు తెలుసా?",
+  "fact": "శివుడి మూడో కన్ను జ్ఞానం మరియు అంతర్దృష్టికి ప్రతీక.",
+  "story": "శివుడి మూడో కన్ను ఎందుకు? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. శివుడి మూడో కన్ను జ్ఞానం మరియు అంతర్దృష్టికి ప్రతీక.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Lord Shiva, devotional opening scene, vertical 9:16",
+    "Lord Shiva, story setup, sacred background, vertical 9:16",
+    "Lord Shiva, main spiritual event, vertical 9:16",
+    "Lord Shiva, blessing and teaching moment, vertical 9:16",
+    "Lord Shiva, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "shiva",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}

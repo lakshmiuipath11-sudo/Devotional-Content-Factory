@@ -1,0 +1,30 @@
+{
+  "Monday": {
+    "key": "shiva",
+    "name": "Lord Shiva"
+  },
+  "Tuesday": {
+    "key": "hanuman",
+    "name": "Lord Hanuman"
+  },
+  "Wednesday": {
+    "key": "ganesha",
+    "name": "Lord Ganesha"
+  },
+  "Thursday": {
+    "key": "vishnu",
+    "name": "Lord Vishnu"
+  },
+  "Friday": {
+    "key": "lakshmi",
+    "name": "Goddess Lakshmi"
+  },
+  "Saturday": {
+    "key": "shani",
+    "name": "Lord Shani"
+  },
+  "Sunday": {
+    "key": "surya",
+    "name": "Lord Surya"
+  }
+}

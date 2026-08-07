@@ -1,0 +1,25 @@
+{
+  "id": "SURYA-003",
+  "deity_key": "surya",
+  "deity_name": "Lord Surya",
+  "language": "Telugu",
+  "title": "సూర్యుడు జ్ఞానానికి ప్రతీక ఎందుకు?",
+  "hook": "మీకు తెలుసా?",
+  "fact": "చీకటిని తొలగించే కాంతిలా జ్ఞానం అజ్ఞానాన్ని తొలగిస్తుంది.",
+  "story": "సూర్యుడు జ్ఞానానికి ప్రతీక ఎందుకు? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. చీకటిని తొలగించే కాంతిలా జ్ఞానం అజ్ఞానాన్ని తొలగిస్తుంది.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Lord Surya, devotional opening scene, vertical 9:16",
+    "Lord Surya, story setup, sacred background, vertical 9:16",
+    "Lord Surya, main spiritual event, vertical 9:16",
+    "Lord Surya, blessing and teaching moment, vertical 9:16",
+    "Lord Surya, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "surya",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}

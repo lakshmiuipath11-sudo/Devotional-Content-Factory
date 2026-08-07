@@ -1,0 +1,49 @@
+{
+  "max_hashtags": 10,
+  "default_hashtags": [
+    "#HinduDevotional",
+    "#DevotionalFacts",
+    "#SanatanaDharma",
+    "#TeluguDevotional",
+    "#HinduStories",
+    "#DidYouKnow"
+  ],
+  "deity_hashtags": {
+    "shiva": [
+      "#LordShiva",
+      "#Mahadev",
+      "#Shiva"
+    ],
+    "hanuman": [
+      "#LordHanuman",
+      "#Hanuman",
+      "#Bajrangbali",
+      "#JaiHanuman"
+    ],
+    "ganesha": [
+      "#LordGanesha",
+      "#Ganesha",
+      "#Ganapati"
+    ],
+    "vishnu": [
+      "#LordVishnu",
+      "#Vishnu",
+      "#Narayana"
+    ],
+    "lakshmi": [
+      "#GoddessLakshmi",
+      "#Lakshmi",
+      "#Mahalakshmi"
+    ],
+    "shani": [
+      "#LordShani",
+      "#ShaniDev",
+      "#Shani"
+    ],
+    "surya": [
+      "#LordSurya",
+      "#SuryaDev",
+      "#SunGod"
+    ]
+  }
+}

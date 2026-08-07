@@ -1,0 +1,25 @@
+{
+  "id": "LAKSHMI-002",
+  "deity_key": "lakshmi",
+  "deity_name": "Goddess Lakshmi",
+  "language": "Telugu",
+  "title": "లక్ష్మీదేవికి దీపాలు ఎందుకు ఇష్టం?",
+  "hook": "మీకు తెలుసా?",
+  "fact": "దీపం జ్ఞానం, శుభం, ఐశ్వర్యానికి సంకేతం.",
+  "story": "లక్ష్మీదేవికి దీపాలు ఎందుకు ఇష్టం? గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. దీపం జ్ఞానం, శుభం, ఐశ్వర్యానికి సంకేతం.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Goddess Lakshmi, devotional opening scene, vertical 9:16",
+    "Goddess Lakshmi, story setup, sacred background, vertical 9:16",
+    "Goddess Lakshmi, main spiritual event, vertical 9:16",
+    "Goddess Lakshmi, blessing and teaching moment, vertical 9:16",
+    "Goddess Lakshmi, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "lakshmi",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}

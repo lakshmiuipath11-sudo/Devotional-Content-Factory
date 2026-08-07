@@ -1,0 +1,25 @@
+{
+  "id": "GANESHA-002",
+  "deity_key": "ganesha",
+  "deity_name": "Lord Ganesha",
+  "language": "Telugu",
+  "title": "గణేశుడి ఏకదంత రహస్యం",
+  "hook": "మీకు తెలుసా?",
+  "fact": "ఒక దంతంతో కూడా జ్ఞానం, త్యాగం, కర్తవ్యాన్ని సూచిస్తాడు.",
+  "story": "గణేశుడి ఏకదంత రహస్యం గురించి ఒక ఆసక్తికరమైన భక్తి విశేషం ఉంది. ఒక దంతంతో కూడా జ్ఞానం, త్యాగం, కర్తవ్యాన్ని సూచిస్తాడు.",
+  "moral": "భక్తి, జ్ఞానం, ధర్మం మన జీవితానికి దారి చూపుతాయి.",
+  "cta": "ఇలాంటి మరిన్ని భక్తి విశేషాల కోసం మా ఛానల్‌ను Subscribe చేయండి.",
+  "scene_prompts": [
+    "Lord Ganesha, devotional opening scene, vertical 9:16",
+    "Lord Ganesha, story setup, sacred background, vertical 9:16",
+    "Lord Ganesha, main spiritual event, vertical 9:16",
+    "Lord Ganesha, blessing and teaching moment, vertical 9:16",
+    "Lord Ganesha, peaceful conclusion, subscribe message space, vertical 9:16"
+  ],
+  "tags": [
+    "ganesha",
+    "devotional",
+    "telugu",
+    "did you know"
+  ]
+}
