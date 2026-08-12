@@ -1,0 +1,58 @@
+name: Devotional Content Factory V1.7
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Generation date YYYY-MM-DD"
+        required: true
+        default: "2026-08-05"
+
+      videos:
+        description: "Number of videos"
+        required: true
+        default: "1"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate devotional episode folders
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python src/main.py \
+            --date "${{ inputs.date }}" \
+            --videos "${{ inputs.videos }}"
+
+      - name: Generate Telugu MP3 narration
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY_NEW }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_DEFAULT_VOICE_ID }}
+        run: |
+          python src/add_narration.py --output-root output
+
+      - name: Show generated files
+        run: |
+          find output -type f
+
+      - name: Upload V1.7 package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: devotional-v1-7-${{ github.run_number }}
+          path: output/
+          if-no-files-found: warn
+          retention-days: 7
