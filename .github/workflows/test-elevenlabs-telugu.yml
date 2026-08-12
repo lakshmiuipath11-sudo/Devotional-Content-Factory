@@ -22,7 +22,7 @@ jobs:
       - name: Generate Telugu narration
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY_NEW }}
-          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_DEFAULT_VOICE_ID }}
         run: python src/test_elevenlabs_telugu.py
 
       - name: Upload narration
