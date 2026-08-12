@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -20,10 +20,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate Telugu narration
-       env:
-       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY_NEW }}
-       ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
-       
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY_NEW }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
         run: python src/test_elevenlabs_telugu.py
 
       - name: Upload narration
