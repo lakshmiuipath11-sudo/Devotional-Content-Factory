@@ -27,22 +27,23 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
 
-      - name: Generate devotional episode folders
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      - name: Generate devotional content without images
         run: |
           python src/main.py \
             --date "${{ inputs.date }}" \
-            --videos "${{ inputs.videos }}"
+            --videos "${{ inputs.videos }}" \
+            --skip-images
 
       - name: Generate Telugu MP3 narration
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY_NEW }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_DEFAULT_VOICE_ID }}
         run: |
-          python src/add_narration.py --output-root output
+          python src/add_narration.py \
+            --output-root output
 
       - name: Show generated files
         run: |
@@ -54,5 +55,5 @@ jobs:
         with:
           name: devotional-v1-7-${{ github.run_number }}
           path: output/
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 7
